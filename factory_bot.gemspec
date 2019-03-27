@@ -23,6 +23,7 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/thoughtbot/factory_bot"
 
   s.add_dependency("activesupport", ">= 4.2.0")
+  s.add_dependency("hirb", ">= 0.7.2")
 
   s.add_development_dependency("activerecord")
   s.add_development_dependency("appraisal")
