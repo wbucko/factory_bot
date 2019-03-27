@@ -46,6 +46,7 @@ require "factory_bot/decorator/new_constructor"
 require "factory_bot/linter"
 require "factory_bot/version"
 require "factory_bot/internal"
+require "factory_bot/tracker"
 
 module FactoryBot
   DEPRECATOR = ActiveSupport::Deprecation.new("6.0", "factory_bot")
